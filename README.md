@@ -6,14 +6,12 @@ Decoder is a black-box fuzzer that generates syntactically valid program inputs 
 In this experiment, we test and compare two fuzzers: Decoder and pfuzzer. Both fuzzers are run on 5 target programs.
 
 ## Virtual Machine
-To reproduce the experiments, download the box file located at: 
+To reproduce the experiments, download the box file located [here](https://figshare.com/s/1aed02f8caf73072873f). 
 
 VM specs are:
 * CPU: 2 cores minimum.
 * RAM: 4 GB 
 * Swap: 1 GB
-
-The bfuzzer.box is available [here](https://figshare.com/s/1aed02f8caf73072873f)
 
 To startup the VM, go into the directory where bfuzzer.box and Makefile are stored. Run the following command:
 
