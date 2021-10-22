@@ -13,6 +13,8 @@ VM specs are:
 * RAM: 4 GB 
 * Swap: 1 GB
 
+The bfuzzer.box is available [here](https://figshare.com/s/1aed02f8caf73072873f)
+
 To startup the VM, go into the directory where bfuzzer.box and Makefile are stored. Run the following command:
 
     make box-add
